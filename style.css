@@ -1,0 +1,49 @@
+input::-webkit-inner-spin-button { 
+    display: none;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    margin-left: 70px;
+}
+
+p{
+    position: relative;
+    top: 47.5px;
+    right: -290px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.converter{
+    width: 400px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.converter:hover{
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    outline: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    border: 0px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+button:hover{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
